@@ -1,8 +1,8 @@
 { 
   "_comment": "Sample GloBI dataset descriptor. See http://github.com/globalbioticinteractions for more information.",
-  "citation": "Canterbury Museum. (2024). Canterbury Museum (CMNZ) collection insect specimen-plant flower interactions (0.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11694302",
+  "citation": "Canterbury Museum. (2025). Canterbury Museum (CMNZ) collection insect specimen-plant flower interactions (0.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15429172",
   "deprecated": false,
   "resources": {
-    "/interactions.tsv": "https://zenodo.org/records/11694302/files/CMNZ_Insect_flower_interaction_dataset%20v0.2.tsv"
+    "/interactions.csv": "https://zenodo.org/records/15429172/files/CMNZ_Insect_flower_interaction_dataset_name_updates.csv"
   }
 }
