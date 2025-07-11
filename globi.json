@@ -1,8 +1,78 @@
-{ 
-  "_comment": "Sample GloBI dataset descriptor. See http://github.com/globalbioticinteractions for more information.",
-  "citation": "Canterbury Museum. (2025). Canterbury Museum (CMNZ) collection insect specimen-plant flower interactions (0.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15429172",
-  "deprecated": false,
-  "resources": {
-    "/interactions.csv": "https://zenodo.org/records/15429172/files/CMNZ_Insect_flower_interaction_dataset_name_updates.csv"
-  }
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://zenodo.org/records/15429172/files/CMNZ_Insect_flower_interaction_dataset_name_updates.csv",
+    "referenceDoi": "https://doi.org/10.5281/zenodo.15429172",
+    "doi": "https://doi.org/10.5281/zenodo.15429172",
+    "dcterms:bibliographicCitation" : "Canterbury Museum. (2025). Canterbury Museum (CMNZ) collection insect specimen-plant flower interactions (0.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15429172",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceCatalogNumber",
+        "titles" : "sourceCatalogNumber",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceInstitutionCode",
+        "titles" : "sourceInstitutionCode",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBasisOfRecord",
+        "titles" : "sourceBasisOfRecord",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonRank",
+        "titles" : "sourceTaxonRank",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "sourceTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonId",
+        "titles" : "sourceTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "interactionTypeId",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonRank",
+        "titles" : "targetTaxonRank",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "targetTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "targetTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "eventDate",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "locality",
+        "datatype" : "string"
+      }, {
+        "name" : "eventRemarks",
+        "titles" : "eventRemarks",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
 }
